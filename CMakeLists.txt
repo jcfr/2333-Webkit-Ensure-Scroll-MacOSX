@@ -8,3 +8,6 @@ include(${QT_USE_FILE})
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} ${QT_LIBRARIES})
+
+add_executable(${PROJECT_NAME}-webviewonly main-webviewonly.cpp)
+target_link_libraries(${PROJECT_NAME}-webviewonly ${QT_LIBRARIES})
